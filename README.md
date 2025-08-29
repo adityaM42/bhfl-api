@@ -1,4 +1,4 @@
-# BHFL API
+# BFHL API
 
 This is a Node.js + Express API built as part of Bajaj Finserv coding assignment.  
 It accepts an array of items (numbers and alphabets), processes them, and returns structured JSON output.
@@ -87,5 +87,6 @@ Example:
 GET https://bfhl-api-production.up.railway.app/bfhl
 
 POST https://bfhl-api-production.up.railway.app/bfhl
+
 
 
