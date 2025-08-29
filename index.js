@@ -121,6 +121,11 @@ app.post("/bfhl", (req, res) => {
 // health ping (optional)
 app.get("/", (_req, res) => res.send("BFHL API up. POST /bfhl"));
 
+app.get("/bfhl", (req, res) => {
+  res.json({ operation_code: 1, message: "GET /bfhl is working" });
+});
+
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server running on http://localhost:${port}`);
